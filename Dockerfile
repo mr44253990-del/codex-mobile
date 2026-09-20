@@ -18,4 +18,4 @@ RUN npm install -g @openai/codex
 
 EXPOSE 10000
 
-CMD ["sh", "-c", "npx --yes @brutalstrikedevs/codexapp --port ${PORT} --no-tunnel --no-open --no-login"]
+CMD ["sh", "-c", "npx --yes @brutalstrikedevs/codexapp --port ${PORT} --no-tunnel --no-login --password 'Rakib@2026#Codex'"]
